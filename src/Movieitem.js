@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 
 export default class Movieitem extends Component {
-    
-    constructor(props){
+
+    constructor(props) {
         super(props)
     }
-    
+
     render() {
 
-        const {id, title, overview, vote_average, poster_src} = this.props.movie
+        const { id, title, overview, vote_average, poster_src } = this.props.movie
         return (
-            <table key={id} style={{textAlign: 'left'}}>
+            <table key={id} style={{ textAlign: 'left' }}>
                 <tbody>
                     <tr>
                         <td>
